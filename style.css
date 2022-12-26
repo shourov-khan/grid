@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+}
+:root{
+    --color-white: white;
+    --color-green: #3C7D36;
+}
+
+image{
+    max-width: 100%;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+header{
+    height: 80px;
+    color: black;
+    margin-top: 20px;
+    align-items: center;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    line-height: 32px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.hero{
+    width: 1000px;
+height: 500px;
+margin-left: 20px;
+
+}
+.hero_img{
+    position: relative;
+    display: flex;
+}
+.green_box{
+    width: 400px;
+height: 503px;
+background-color: #3C7D36;
+margin-left: 900px;
+margin-top: 0;
+position: relative;
+position: absolute;
+}
+.head{
+    position: absolute;
+    margin-top: 150px;
+   background-color:  aliceblue;
+   height: 200px;
+   width: 600px;
+   margin-left: 450px;
+ 
+}
+.head h6{
+    font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+margin-left: 30px;
+}
+.head h1{
+    font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 30px;
+
+}
+.menu h2{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.menu h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.menu{
+    margin-top: 40px;
+    height: 450px ;
+    width: 350px;
+    background-color: #34722F26;
+}
+.menu img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.menu h1{
+    margin-left: 20px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
